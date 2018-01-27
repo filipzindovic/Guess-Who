@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+    
+<head>
+<!-- link to css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+<!-- link to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+</head>
+    
+<body>  
+    
+    <div id="container">
+        <div id="instructions">
+            <h2>GUESS WHO?</h2> 
+            <h3>How to play:</h3> 
+            <ul>
+                <li>- Click on the squares to reveal parts of the image.</li>
+                <br>
+                <li>- Enter your answer in the guess box on the right!</li>
+                <br>
+                <li>- You will start with 25 points, each click reduces your end-of-game score by 1.</li>
+                <br>
+                <li>- A hint is available if needed!</li>
+            </ul>
+        </div>
+        
+        <div id="picture"><img id="imageDisplay"></div>
+        
+        <div id="options">
+            <input id="userGuess" type="text" placeholder="Enter your answer!">
+            <button id="guessButton">GUESS</button>
+            <button id="hint">NEED A HINT?</button>
+            <div id="hintDisplay"></div>
+            <button id="playAgain">PLAY AGAIN?</button>
+        </div>
+    </div>
+    
+<!-- link to javascript -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
